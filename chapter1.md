@@ -2,8 +2,6 @@
 
 个人课程报告
 
-
-
 姓名：苏智斌
 
 学号：320170936361
@@ -43,4 +41,226 @@
 运行结果截图：
 
 ![](/assets/微信图片_20180105120907.png)![](/assets/微信图片_20180105120911.png)XML代码：
+
+
+
+&lt;xml xmlns="http://www.w3.org/1999/xhtml"&gt;
+
+&lt;variables&gt;
+
+&lt;variable type="" id="eCAlg5Kbv-z,637\`;7FW"&gt;X&lt;/variable&gt;
+
+&lt;variable type="" id="IC\|\`d0Vnf-kvswZ}.XMe"&gt;Y&lt;/variable&gt;
+
+&lt;variable type="" id="M\]l\[I\|M\[mCvJ5u5jzMuH"&gt;Z&lt;/variable&gt;
+
+&lt;/variables&gt;
+
+&lt;block type="variables\_set" id="oO+L4\#uu5eI1?FeJAMc1" x="13" y="13"&gt;
+
+&lt;field name="VAR" id="eCAlg5Kbv-z,637\`;7FW" variabletype=""&gt;X&lt;/field&gt;
+
+&lt;value name="VALUE"&gt;
+
+&lt;block type="math\_number" id="Z/eQ\_0=ro-5U9~JG\|XI\["&gt;
+
+&lt;field name="NUM"&gt;1999&lt;/field&gt;
+
+&lt;/block&gt;
+
+&lt;/value&gt;
+
+&lt;next&gt;
+
+&lt;block type="variables\_set" id="~Jy$SXK,Hm$BAr{UZn.?"&gt;
+
+&lt;field name="VAR" id="IC\|\`d0Vnf-kvswZ}.XMe" variabletype=""&gt;Y&lt;/field&gt;
+
+&lt;value name="VALUE"&gt;
+
+&lt;block type="math\_number" id="XgCU?Hi$BPV2D!b:}w.7"&gt;
+
+&lt;field name="NUM"&gt;3245&lt;/field&gt;
+
+&lt;/block&gt;
+
+&lt;/value&gt;
+
+&lt;next&gt;
+
+&lt;block type="variables\_set" id="oNU\]X{wDG;H\*\_Q\)9\)S\`G"&gt;
+
+&lt;field name="VAR" id="M\]l\[I\|M\[mCvJ5u5jzMuH" variabletype=""&gt;Z&lt;/field&gt;
+
+&lt;value name="VALUE"&gt;
+
+&lt;block type="math\_modulo" id="@/1k2Y$\_h\|oc\`q@Q\(f,u"&gt;
+
+&lt;value name="DIVIDEND"&gt;
+
+&lt;shadow type="math\_number" id="N!\_-,i2ip.J{WW{v\#nb%"&gt;
+
+&lt;field name="NUM"&gt;64&lt;/field&gt;
+
+&lt;/shadow&gt;
+
+&lt;block type="math\_arithmetic" id="}0S5LcRH\)e0pUN~4@yQq"&gt;
+
+&lt;field name="OP"&gt;MINUS&lt;/field&gt;
+
+&lt;value name="A"&gt;
+
+&lt;shadow type="math\_number" id="E/nRE?+hbrVd+\_++X18Q"&gt;
+
+&lt;field name="NUM"&gt;1&lt;/field&gt;
+
+&lt;/shadow&gt;
+
+&lt;block type="variables\_get" id="V0\*{QBn3.mwupsUBk=\`@"&gt;
+
+&lt;field name="VAR" id="IC\|\`d0Vnf-kvswZ}.XMe" variabletype=""&gt;Y&lt;/field&gt;
+
+&lt;/block&gt;
+
+&lt;/value&gt;
+
+&lt;value name="B"&gt;
+
+&lt;shadow type="math\_number" id="+~pOHXp8A:Lb?M?Kj;!0"&gt;
+
+&lt;field name="NUM"&gt;1&lt;/field&gt;
+
+&lt;/shadow&gt;
+
+&lt;block type="variables\_get" id="hoTOmfYDD9b^bE;N2DvQ"&gt;
+
+&lt;field name="VAR" id="eCAlg5Kbv-z,637\`;7FW" variabletype=""&gt;X&lt;/field&gt;
+
+&lt;/block&gt;
+
+&lt;/value&gt;
+
+&lt;/block&gt;
+
+&lt;/value&gt;
+
+&lt;value name="DIVISOR"&gt;
+
+&lt;shadow type="math\_number" id="oS=cD4d,2qdT}p+sPIjR"&gt;
+
+&lt;field name="NUM"&gt;10&lt;/field&gt;
+
+&lt;/shadow&gt;
+
+&lt;block type="math\_number" id="{.\]n\)?yap\*j\`ACBE,;Sg"&gt;
+
+&lt;field name="NUM"&gt;12&lt;/field&gt;
+
+&lt;/block&gt;
+
+&lt;/value&gt;
+
+&lt;/block&gt;
+
+&lt;/value&gt;
+
+&lt;next&gt;
+
+&lt;block type="controls\_if" id="L=i9EWN+:=uOU1Ga\#We!"&gt;
+
+&lt;mutation else="1"&gt;&lt;/mutation&gt;
+
+&lt;value name="IF0"&gt;
+
+&lt;block type="logic\_compare" id="yf;n2of.,a5Ob9~Qx5B2"&gt;
+
+&lt;field name="OP"&gt;EQ&lt;/field&gt;
+
+&lt;value name="A"&gt;
+
+&lt;block type="variables\_get" id="G5{I{!4C2CQV\_SC8+Ulf"&gt;
+
+&lt;field name="VAR" id="M\]l\[I\|M\[mCvJ5u5jzMuH" variabletype=""&gt;Z&lt;/field&gt;
+
+&lt;/block&gt;
+
+&lt;/value&gt;
+
+&lt;value name="B"&gt;
+
+&lt;block type="math\_number" id="\*yDjy!Z!MKh70;r$~w$\*"&gt;
+
+&lt;field name="NUM"&gt;0&lt;/field&gt;
+
+&lt;/block&gt;
+
+&lt;/value&gt;
+
+&lt;/block&gt;
+
+&lt;/value&gt;
+
+&lt;statement name="DO0"&gt;
+
+&lt;block type="text\_print" id="x\|{S\`.q:$\`}M+!\(X^5Er"&gt;
+
+&lt;value name="TEXT"&gt;
+
+&lt;shadow type="text" id=";Uaq39j$ebONvr.IOYDF"&gt;
+
+&lt;field name="TEXT"&gt;abc&lt;/field&gt;
+
+&lt;/shadow&gt;
+
+&lt;block type="text" id="mF{s\[Q:iDZ0E}fFB.9N^"&gt;
+
+&lt;field name="TEXT"&gt;今年是本命年&lt;/field&gt;
+
+&lt;/block&gt;
+
+&lt;/value&gt;
+
+&lt;/block&gt;
+
+&lt;/statement&gt;
+
+&lt;statement name="ELSE"&gt;
+
+&lt;block type="text\_print" id="yIUQ!0V^hMO\[.g^B!atB"&gt;
+
+&lt;value name="TEXT"&gt;
+
+&lt;shadow type="text" id="ZSZ2PnQ\`I8ia^7~}K\|w\#"&gt;
+
+&lt;field name="TEXT"&gt;abc&lt;/field&gt;
+
+&lt;/shadow&gt;
+
+&lt;block type="text" id="0v9Yy%=+!^Gro!$r}iz="&gt;
+
+&lt;field name="TEXT"&gt;今年不是本命年&lt;/field&gt;
+
+&lt;/block&gt;
+
+&lt;/value&gt;
+
+&lt;/block&gt;
+
+&lt;/statement&gt;
+
+&lt;/block&gt;
+
+&lt;/next&gt;
+
+&lt;/block&gt;
+
+&lt;/next&gt;
+
+&lt;/block&gt;
+
+&lt;/next&gt;
+
+&lt;/block&gt;
+
+&lt;/xml&gt;
 
